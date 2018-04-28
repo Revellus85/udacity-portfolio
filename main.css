@@ -27,6 +27,7 @@
 .brand {    
     color: white;
     font-size: 30px;
+    display: inline-block;
 }
 .profile-pic {
     width: 300px;
@@ -82,4 +83,30 @@
 .projects-title {
     font-family: sans-serif; 
     padding-top: 20px;
+}
+.project-card {
+    font-family: sans-serif; 
+    padding-top: 30px;
+    width: 320px;    
+    padding-bottom: 20px;
+}
+.projects {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+footer {
+    padding-top: 25px;
+    text-align: center;
+    background-color: #333;
+    justify-content: center;
+}
+.footer-content {
+    justify-content: center;
+    color: white;
+}
+.logo {
+    width: 100px;
+    display: inline-block;
+    float: left;
 }

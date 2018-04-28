@@ -10,30 +10,48 @@
     <link rel="stylesheet" type="text/css" href="main.css">
   </head>
   <body>      
+      <!--Begin Navbar-->
       <div class="nav-container">
         <nav class="nav">
                 <ul class="nav-list">
+                    <img src="Udacity_logo.png" alt="Udacity logo" class="logo">
                     <span class="brand">Kevin Dudley</span>                                 
-                    <li class="nav-link"><a class="nav-link" href=""><i class="fa fa-briefcase"></i>My Work</a></li>
-                    <li class="nav-link"><a class="nav-link" href="#about"><i class="fa fa-user-circle-o"></i>About Me</a></li>
+                    <li class="nav-link"><a class="nav-link" href="#work"><i class="fa fa-briefcase"></i>My Work</a></li>
+                    <li class="nav-link"><a class="nav-link" href="#about-me"><i class="fa fa-user-circle-o"></i>About Me</a></li>
                 </ul>
             </nav>
         </div> 
+         <!--Begin Normal page flow with about me-->
     <div class="container">  
-            <div class="about">                        
+            <div class="about" id="about-me">                        
             <img class="profile-pic" src="about.jpg" alt="Kevin Dudley and family">
             <p class="about-content">Father, Husband, and Front-End Developer, with experience in people management, data analytics, and customer service; devoted to providing the very best customer experience on every device.</p>
             <p class="about-content"><strong>Web Developer - Customer Lover - Lifelong Learner</strong></p>
         </div>  
         <hr class="rule">  
-        <div class="projects">
-            <h1 class="projects-title">Featured Projects</h1>
+         <!--Begin Projects area-->
+        <h1 class="projects-title" id="work">Featured Projects</h1>
+        <div class="projects">            
+            <div class="project-card">
+                <h3>Ezee Out Bailbonds</h3>
+                <img class="project-card" src="ezeeout.png" alt="Ezee Out Bail Bonds">
+                <a href="https://www.ezeeout.com">Visit</a>
+            </div>
+            <div class="project-card">
+                <h3>Your Foxes Den</h3>
+                <img class="project-card" src="foxesden.png" alt="Your foxes den blog">
+                <a href="https://www.yourfoxesden.com">Visit</a>
+            </div>
+            <div class="project-card">
+                <h3>Clearview Escapes</h3>
+                <img class="project-card" src="Clearview.png" alt="Clearview travel agency">
+                <a href="http://kevindudleypro.com/clearview.html">Template Site</a>
+            </div>
         </div>     
-    </div>
-    
+    </div>   
+     <!--Begin Footer-->
+    <footer>
+        <span class="footer-content">Kevin Dudley Grow with Google Developer Challange Scholarship 2018</span>
+    </footer> 
   </body>
-
-
-
-
 </html>
